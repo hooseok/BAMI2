@@ -1,8 +1,8 @@
 # BAMI2 PPG dataset
 
-For the experiment, we developed a watch-type PPG measuring device. The developed device includes a 3-channel PPG sensor, an accelerometer and a gyroscope. For the acquisition of the PPG signal, photosensors (NJL5310R, NJR Corporation, Japan) integrating two green LEDs(wavelength: 525nm) and a photodetector was used. Three PPG sensors were placed at intervals of 6 mm. Acceleration and gyro values were collected using a 6-axis inertial measurement unit (IMU; LSM6DSMUSTR, STMicroelectronics). Three digital signals were stored using a micro-SD card. The three digital signals are simultaneously stored on a micro-SD card at a frequency of 50 Hz.
+For the experiment, we developed a watch-type PPG measuring device. The developed device includes a 3-channel PPG sensor, an accelerometer and a gyroscope. For the acquisition of the PPG signal, photosensors (SFH 7070, Osram, Germany) integrating two green LEDs(wavelength: 525nm) and a photodetector was used. Three PPG sensors were placed at intervals of 6 mm. Acceleration and gyro values were collected using a 6-axis inertial measurement unit (IMU; LSM6DSMUSTR, STMicroelectronics). Three digital signals were stored using a micro-SD card. The three digital signals are simultaneously stored on a micro-SD card at a frequency of 50 Hz.
 
-We conducted experiments with a modified version of the Bruce protocol, which consists of 2 min of walking as a warm-up, 3 min of running, 2 min of walking, 3 min of running, and 2 min of walking to cool down, all on a treadmill. During the running, the speed was set to 6.0 to 7.0 km/h. In the experiment, 24 healthy subjects at Wonkwang University were recruited by trained study personnel. In total, 10 males and 14 females with an average age of 26.9 ± 4.8 years participated. The protocol for data collection and analysis was approved by the Institutional Review Board of Wonkwang University. All participants provided written informed consent.
+The entire exercise process was performed on a treadmill. In the BAMI-II dataset (n=23 ), the exercise protocol included 1 min of rest, 2 min of walking for warm-up at 3–4 km/h, 4 min of running at 6–8 km/h, 4 min of walking at 3–4 km/h, and 1 min of rest to cool down. During every 4-min session of running and walking, the subjects walked or ran while holding a treadmill bar during the last two minutes of the session. We designed the session to reflect cardiac rehabilitation exercise for cardiac patients with poor exercise ability—they normally walk or run by holding a treadmill bar. The subjects comprised 17 males and 6 females with average age of 22.0± 1.7 years. The entire exercise process was also performed on a treadmill. For both datasets, the reference true HRs were measured by ECG data simultaneously recorded by a 24-h Holter monitor (SEER Light, GE Healthcare, Milwaukee, WI, USA). The protocol for data collection and analysis was approved by the Institutional Review Board of Wonkwang University. All participants provided written informed consent.
 
 Citation and copyright 
 ==================================================
@@ -20,13 +20,14 @@ URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8529266&isnumber=44
 Exercise Experiment Protocol
 ==================================================
 Measurements were taken using an ECG placed on the chest together with a PPG placed on the wrist during treadmill exercise. ECG data were recorded simultaneously using a 24-hour Holter monitor (SEER Light; GE Healthcare, Milwaukee, WI, USA). PPG and motion data were recorded using a wearable device which we developed. Participants were asked to perform the exercise according to the exercise protocol, we have designed. 
-  1) Stay (Resting)      : 1minutes
-  2) Walking             : 2minutes, treadmill (2.5km/h)
-  3) Running             : 3minutes, treadmill (6km/h)
-  4) Walking             : 2minutes, treadmill (3km/h)
-  5) Running             : 3minutes, treadmill (7km/h)
-  6) Walking             : 2minutes, treadmill (2.5km/h)
-  7) Stay (Resting)      : 1minutes
+  1) Stay (Resting)         : 1minutes
+  2) Walking                : 2minutes, treadmill (3-4 km/h)
+  3) Running                : 2minutes, treadmill (6-8 km/h)
+  4) Running (grab the bar) : 2minutes, treadmill (6-8 km/h)
+  5) Walking                : 2minutes, treadmill (3-4 km/h)
+  6) Walking (grab the bar) : 2minutes, treadmill (3-4 km/h)
+  7) Stay (Resting)         : 1minutes
+
 
 Data Description
 ==================================================
