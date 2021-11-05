@@ -8,14 +8,12 @@ Citation and copyright
 ==================================================
 Hooseok Lee, Heewon Chung, and Jinseok Lee (Professor) a member of BAMI LAB.   
 https://sites.google.com/site/bamilab/biosignal-lab   
-Last updated 2018.09.27 (September 27, 2018)
 
-All datasets have copyrights. But you can freely use them for the Signal Processing Cup or your own academic research, as long as you suitably cite the data in your works. Please do not cite this competition website, because it may not be available after this competition. Instead, please cite the following paper, since all training datasets come from it: 
+All datasets have copyrights. But you can freely use them for the Signal Processing Cup or your own academic research, as long as you suitably cite the data in your works. Please do not cite this website. Instead, please cite the following paper, since all training datasets come from it: 
 
-H. Lee, H. Chung and J. Lee, "Motion Artifact Cancellation in Wearable Photoplethysmography Using Gyroscope," in IEEE Sensors Journal.
-doi: 10.1109/JSEN.2018.2879970
+Chung, Heewon, et al. "Deep learning for heart rate estimation from reflectance photoplethysmography with acceleration power spectrum and acceleration intensity." IEEE Access 8 (2020): 63390-63402.
 
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8529266&isnumber=4427201
+URL: https://ieeexplore.ieee.org/document/9042276
 
 Exercise Experiment Protocol
 ==================================================
